@@ -1,11 +1,17 @@
 {
   "name": "impoman",
   "version": "1.0.0",
-  "description": "its a dependency manager",
-  "main": "impoman.js",
+  "description": "A simple Node.js CLI tool to automatically manage and inject require dependencies.",
+  "main": "impo-cli.js",
+  "bin": {
+    "impoman": "./impo-cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sumim hasan",
-  "license": "ISC"
+  "author": "Sumim Hasan",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12"
+  }
 }

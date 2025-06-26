@@ -1,0 +1,7 @@
+{
+  "defaults": ["fs", "path"],
+  "example.js": ["utils/local-mod.js"],
+  "aliases": {
+    "utils": ".example/example-local-module"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "impoman",
+  "version": "1.0.0",
+  "description": "its a dependency manager",
+  "main": "impoman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sumim hasan",
+  "license": "ISC"
+}
